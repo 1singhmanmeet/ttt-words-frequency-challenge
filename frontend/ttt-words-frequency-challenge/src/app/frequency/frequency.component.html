@@ -1,0 +1,47 @@
+<div class="jumbotron text-center">
+  <h1>TTT(Terribly Tiny Tales) Words Frequency Challenge</h1>
+  <p></p>
+</div>
+<div class="container">
+  <!-- Input field to get N(Number of words) from user  -->
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 form-group text-center">
+      <label for="email">Enter value for N:</label>
+      <input type="number" class="form-control" [(ngModel)]="numberOfWords" id="numberOfWords">
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+  <!-- Submit button -->
+
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <Button (click)="onSubmit();" class="col-sm-4 btn">Submit</Button>
+    <div class="col-sm-4"></div>
+  </div>
+  <!-- Table to show result -->
+
+<div class="row" style="margin-top: 10px">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+      <div class="table-responsive">          
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th class="center">Word</th>
+                <th class="center">Frequency</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let word of wordsArray">
+                <td class="center">{{word[0]}}</td>
+                <td class="center">{{word[1]}}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </div>
+  <div class="col-sm-4"></div>
+</div>
+  
+</div>
