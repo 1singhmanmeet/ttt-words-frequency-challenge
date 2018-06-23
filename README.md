@@ -24,7 +24,8 @@ If user submit a negative value then simmillar message will be shown like one in
 If number entered by user is greater than total number of words in the file then a message will be shown like <b>"Your entered value is greater than the total words in the file. So, all the words will be shown."</b>
 
 <img src="limit_exceed.png">
-### Plugin Used:
+
+### Plugins Used:
 
 <ul>
 	<li>body-parser: 1.18.3 (Node.js)</li>
