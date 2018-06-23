@@ -15,7 +15,7 @@ Here are some basic test cases:
 ### Case-1 (Blank value):
 If user submit a request with blank field then a message will be displayed says <b>"Invalid Input!!!: Please give a valid positive number."</b> as you can see in screenshot below:
 
-<img src="">
+<img src="invalid_input.png">
 
 ### Case-2 (Negative value):
 If user submit a negative value then simmillar message will be shown like one in case 1.
@@ -23,6 +23,7 @@ If user submit a negative value then simmillar message will be shown like one in
 ### Case-3 (N is greater than total number of words in the text file):
 If number entered by user is greater than total number of words in the file then a message will be shown like <b>"Your entered value is greater than the total words in the file. So, all the words will be shown."</b>
 
+<img src="limit_exceed.png">
 ### Plugin Used:
 
 <ul>
