@@ -3,6 +3,7 @@ var fs = require('fs');
 var readLine = require('readline');
 var methods = {};
 
+// Utility function to filter the given text value.
 methods.filterText = function (text) {
     var result = "";
 
@@ -19,7 +20,7 @@ methods.filterText = function (text) {
     return result;
 };
 
-
+// Utility function to get the text file from given "url" and save as "filename".
 methods.loadFile = function (url, filename, res) {
 
     // checking whether the file is already there or not.
