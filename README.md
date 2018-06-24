@@ -6,7 +6,7 @@ Frontend part is a web application created using Angular framework. Here user en
 
 <img src="home.png">
 
-## Part-2 (Backend, with Node.js):
+## Part-2 (Backend, with Node.js v10.5.0):
 Backend part is the core part where actually frequecy of the words get calulated. Here, a number N(From Frontend) is received as a part of request url and then the text file given is read and an JSON array is returned as a response to Frontend.
 
 ## Test Cases:
@@ -31,5 +31,6 @@ If number entered by user is greater than total number of words in the file then
 	<li>body-parser: 1.18.3 (Node.js)</li>
 	<li>express: 4.16.3 (Node.js)</li>
 	<li>request: 2.87.0 (Node.js)</li>
+	<li>Angular CLI (Angular5)</li>
 </ul>
 
