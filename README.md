@@ -1,5 +1,5 @@
 # ttt-words-frequency-challenge
-This is the challenge project given by TTT(Terribly Tiny Tales). The main task here is to get top N most frequent words in the file that is given by TTT. Complete solution contains two parts. You can check the working solution at <a href="http://ec2-13-127-89-161.ap-south-1.compute.amazonaws.com">ec2-13-127-89-161.ap-south-1.compute.amazonaws.com</a>(Both the parts are running in different Docker containers)
+This is the challenge project given by TTT(Terribly Tiny Tales). The main task here is to get top N most frequent words in the file that is given by TTT. Complete solution contains two parts. You can check the working solution at <a href="http://ec2-13-127-89-161.ap-south-1.compute.amazonaws.com">http://ec2-13-127-124-141.ap-south-1.compute.amazonaws.com</a>(Both the parts are running in different Docker containers)
 
 ## Part-1 (Frontend, with Angular5):
 Frontend part is a web application created using Angular framework. Here user enters a number N(Number of words) and response will be shown in the form of a table as you can see in the screenshot below:
